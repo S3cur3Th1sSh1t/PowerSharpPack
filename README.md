@@ -200,6 +200,8 @@ Projects which are also available as standalone powershell script:
  C# Data Collector for the BloodHound Project, Version 3
  @Credit to: https://github.com/BloodHoundAD/SharpHound3
 
+ **SharpLocker**
 
-
+ SharpLocker helps get current user credentials by popping a fake Windows lock screen, all output is sent to Console which works perfect for Cobalt Strike.
+ @Credit to: https://github.com/Pickfordmatt/SharpLocker
 
