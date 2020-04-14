@@ -6,11 +6,11 @@ Why? In my personal opinion offensive Powershell is not dead because of AMSI, Sc
 
 So what did i basically do here? 
 
-1. First of all clone each C# Repo.
-2. Set the class and main methods public
-3. For some projects i merged pull requests with new features or bug fixes or i had to remove environment.exit statements so that the whole powershell process is not killed for missing parameters and so on
-4. Afterwards compiling each binary
-5. Encoding it base64 and load it in powershell via [System.Reflection.Assembly]::Load([Convert]::FromBase64String()).
+1) First of all clone each C# Repo.
+2) Set the class and main methods public
+3) For some projects i merged pull requests with new features or bug fixes or i had to remove environment.exit statements so that the whole powershell process is not killed for missing parameters and so on
+4) Afterwards compiling each binary
+5) Encode the compiled binary base64 and load it in powershell via [System.Reflection.Assembly]::Load([Convert]::FromBase64String()).
 
 Its a very easy but for many repos time consuming process.
 
