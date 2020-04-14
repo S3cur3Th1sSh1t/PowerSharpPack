@@ -4,7 +4,15 @@ Many usefull offensive CSharp Projects wraped into Powershell for easy usage.
 
 Why? In my personal opinion offensive Powershell is not dead because of AMSI, Script-block-logging, Constrained Language Mode or other protection features. Any of these mechanisms can be bypassed. Since most new innovative offensive security projects are written in C# I decided to make them usable in powershell as well.
 
-So what did i basically do here? First of all clone each C# Tool and set the class and main methods public. For some projects i merged pull requests with new features or bug fixes or i had to remove environment.exit statements so that the whole powershell process is not killed for missing parameters and so on. Afterwards compiling each binary, encoding it base64 and load it in powershell via [System.Reflection.Assembly]::Load([Convert]::FromBase64String()).
+So what did i basically do here? 
+
+1. First of all clone each C# Repo.
+2. Set the class and main methods public
+3. For some projects i merged pull requests with new features or bug fixes or i had to remove environment.exit statements so that the whole powershell process is not killed for missing parameters and so on
+4. Afterwards compiling each binary
+5. Encoding it base64 and load it in powershell via [System.Reflection.Assembly]::Load([Convert]::FromBase64String()).
+
+Its a very easy but for many repos time consuming process.
 
 Which tools are included?
 
@@ -116,4 +124,79 @@ and choose the tool as switch parameter for example:
 
 
 If you dont want to load all binaries for reasons you can use the per binary Powershell scripts located in the PowerSharpBinaries folder.
+
+Projects which are also available as standalone powershell script:
+
+ **SharpCloud**
+
+ Simple C# for checking for the existence of credential files related to AWS, Microsoft Azure, and Google Compute.
+ @Credit to: https://github.com/chrismaddalena/SharpCloud
+
+ **SharpSSDP**
+
+ SSDP Service Discovery
+ @Credit to: https://github.com/rvrsh3ll/SharpSSDP
+
+ **DAFT**
+
+ DAFT: Database Audit Framework & Toolkit
+ @Credit to: https://github.com/NetSPI/DAFT
+
+ **Get-RBCD-Threaded**
+
+ Tool to discover Resource-Based Constrained Delegation attack paths in Active Directory environments
+ @Credit to: https://github.com/FatRodzianko/Get-RBCD-Threaded
+
+ **SharpGPO-RemoteAccessPolicies**
+
+ A C# tool for enumerating remote access policies through group policy.
+ @Credit to: https://github.com/FSecureLABS/SharpGPO-RemoteAccessPolicies
+
+ **SharpAllowedToAct**
+
+ Computer object takeover through Resource-Based Constrained Delegation (msDS-AllowedToActOnBehalfOfOtherIdentity)
+ @Credit to: https://github.com/pkb1s/SharpAllowedToAct
+
+ **WireTap**
+
+ .NET 4.0 Project to interact with video, audio and keyboard hardware.
+ @Credit to: https://github.com/djhohnstein/WireTap
+
+ **SharpClipboard**
+
+ C# Clipboard Monitor
+ @Credit to: https://github.com/slyd0g/SharpClipboard
+
+ **SharpPrinter**
+
+ Discover Printers + check for vulns
+ @Credit to: https://github.com/rvrsh3ll/SharpPrinter
+
+ **SharpHide**
+
+ Tool to create hidden registry keys.
+ @Credit to: https://github.com/outflanknl/SharpHide
+
+ **SpoolSample**
+
+ PoC tool to coerce Windows hosts authenticate to other machines via the MS-RPRN RPC interface. This is possible via other protocols as well.
+ @Credit to: https://github.com/leechristensen/SpoolSample
+
+ **SharpGPOAbuse**
+
+ SharpGPOAbuse is a .NET application written in C# that can be used to take advantage of a user's edit rights on a Group Policy Object (GPO) in order to compromise the objects that are controlled by that GPO.
+ @Credit to: https://github.com/FSecureLABS/SharpGPOAbuse
+
+ **SharpDump**
+
+ SharpDump is a C# port of PowerSploit's Out-Minidump.ps1 functionality.
+ @Credit to: https://github.com/GhostPack/SharpDump
+
+ **SharpHound3**
+
+ C# Data Collector for the BloodHound Project, Version 3
+ @Credit to: https://github.com/BloodHoundAD/SharpHound3
+
+
+
 
