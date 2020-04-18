@@ -205,3 +205,8 @@ Projects which are also available as standalone powershell script:
  SharpLocker helps get current user credentials by popping a fake Windows lock screen, all output is sent to Console which works perfect for Cobalt Strike.
  @Credit to: https://github.com/Pickfordmatt/SharpLocker
 
+ **Eyewitness**
+
+ EyeWitness is designed to take screenshots of websites, provide some server header info, and identify default credentials if possible.
+ @Credit to: https://github.com/FortyNorthSecurity/EyeWitness
+
