@@ -210,3 +210,13 @@ Projects which are also available as standalone powershell script:
  EyeWitness is designed to take screenshots of websites, provide some server header info, and identify default credentials if possible.
  @Credit to: https://github.com/FortyNorthSecurity/EyeWitness
 
+ **FakeLogonScreen**
+
+ Fake Windows logon screen to steal passwords
+ @Credit to: https://github.com/bitsadmin/fakelogonscreen
+
+ **P0wnedShell**
+
+ PowerShell Runspace Post Exploitation Toolkit
+ @Credit to: https://github.com/Cn33liz/p0wnedShell
+
