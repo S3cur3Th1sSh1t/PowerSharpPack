@@ -10,7 +10,7 @@ So what did i basically do here?
 2) Set the class and main methods public
 3) For some projects i merged pull requests with new features or bug fixes or i had to remove environment.exit statements so that the whole powershell process is not killed for missing parameters and so on
 4) Afterwards compiling each binary
-5) Encode the compiled binary base64 and load it in powershell via [System.Reflection.Assembly]::Load([Convert]::FromBase64String()).
+5) Encode the compiled binary base64 and load it in powershell via `[System.Reflection.Assembly]::Load([Convert]::FromBase64String())`.
 
 Its a very easy but for many repos time consuming process.
 
@@ -226,3 +226,7 @@ Projects which are also available as standalone powershell script:
  I modified this one again with my own obfuscated Mimikatz Version.
  @Credit to: https://github.com/GhostPack/SafetyKatz
 
+**InveighZero**
+
+Windows C# LLMNR/mDNS/NBNS/DNS/DHCPv6 spoofer/man-in-the-middle tool .
+ @Credit to: https://github.com/Kevin-Robertson/InveighZero
