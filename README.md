@@ -230,3 +230,8 @@ Projects which are also available as standalone powershell script:
 
 Windows C# LLMNR/mDNS/NBNS/DNS/DHCPv6 spoofer/man-in-the-middle tool .
  @Credit to: https://github.com/Kevin-Robertson/InveighZero
+ 
+ **SharpSploit**
+ 
+ SharpSploit is a .NET post-exploitation library written in C#.
+ @Credit to: https://github.com/cobbr/SharpSploit
