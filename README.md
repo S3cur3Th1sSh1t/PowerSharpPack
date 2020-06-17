@@ -235,3 +235,11 @@ Windows C# LLMNR/mDNS/NBNS/DNS/DHCPv6 spoofer/man-in-the-middle tool .
  
  SharpSploit is a .NET post-exploitation library written in C#.
  @Credit to: https://github.com/cobbr/SharpSploit
+
+
+ **Snaffler**
+
+ A tool for pentesters to help find delicious candy, by @l0ss and @Sh3r4 ( Twitter: @/mikeloss and @/sh3r4_hax ).
+ @Credit to: https://github.com/SnaffCon/Snaffler
+
+
