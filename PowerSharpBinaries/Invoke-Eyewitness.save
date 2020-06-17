@@ -1,0 +1,9 @@
+function Invoke-Eyewitness
+{
+
+    [CmdletBinding()]
+    Param (
+        [String]
+        $Command = " "
+
+    )
