@@ -246,4 +246,10 @@ Windows C# LLMNR/mDNS/NBNS/DNS/DHCPv6 spoofer/man-in-the-middle tool .
 
  itm4ns Printspoofer in C#.
  @Credit to: https://github.com/BeichenDream/BadPotato
+ 
+ 
+ **BetterSafetyKatz**
+ 
+Fork of SafetyKatz that dynamically fetches the latest pre-compiled release of Mimikatz directly from gentilkiwi GitHub repo, runtime patches signatures and uses SharpSploit DInvoke to PE-Load into memory.
+ @Credit to: https://github.com/Flangvik/BetterSafetyKatz
 
