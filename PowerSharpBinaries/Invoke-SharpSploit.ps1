@@ -35,7 +35,7 @@ try
 {
     Add-Type -TypeDefinition $gzipbyte -Language CSharp
     $a = [GzipandBase64.Program]::back()
-    $RAS = [System.Reflection.Assembly]::Load($a)
+    $ASD = [System.Reflection.Assembly]::Load($a)
     Write-Host "Sharpsploit loaded successfully!"
 }
 catch
