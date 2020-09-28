@@ -258,3 +258,7 @@ Fork of SafetyKatz that dynamically fetches the latest pre-compiled release of M
 C# Port of mimikatz sekurlsa::logonpasswords, sekurlsa::ekeys and lsadump::dcsync commands.
  @Credit to: https://github.com/b4rtik/SharpKatz
 
+**Gopher**
+
+C# tool to discover low hanging fruits.
+@Credit to: https://github.com/EncodeGroup/Gopher
