@@ -262,3 +262,9 @@ C# Port of mimikatz sekurlsa::logonpasswords, sekurlsa::ekeys and lsadump::dcsyn
 
 C# tool to discover low hanging fruits.
 @Credit to: https://github.com/EncodeGroup/Gopher
+
+**SharpOxidResolver**
+
+IOXIDResolver from AirBus Security/PingCastle.
+@Credit to: https://github.com/vletoux/pingcastle/
+
