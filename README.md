@@ -268,3 +268,8 @@ C# tool to discover low hanging fruits.
 IOXIDResolver from AirBus Security/PingCastle.
 @Credit to: https://github.com/vletoux/pingcastle/
 
+**SharpBlock**
+
+A method of bypassing EDR's active projection DLL's by preventing entry point exection.
+@Credit to: https://github.com/CCob/SharpBlock
+
