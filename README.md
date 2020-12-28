@@ -137,7 +137,7 @@ Just load the main script with
 
 and choose the tool as switch parameter for example:
 
-`PowerSharpPack -Seatbelt -Command "all"`
+`PowerSharpPack -seatbelt -Command "AMSIProviders"`
 
 ![alt text](https://github.com/S3cur3Th1sSh1t/PowerSharpPack/raw/master/images/Example.JPG)
 
