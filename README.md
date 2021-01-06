@@ -335,3 +335,10 @@ Retrieves data (contacts, emails, history, cookies and credentials) from Thunder
 Extracts data from the Windows Sticky Notes database. Works on Windows 10 Build 1607 and higher. This project doesn't rely on any external dependencies.
 
 @Credit to: https://github.com/V1V1/SharpScribbles
+
+
+**SCShell**
+
+Fileless lateral movement tool that relies on ChangeServiceConfigA to run command.
+
+@Credit to: https://github.com/Mr-Un1k0d3r/SCShell
