@@ -342,3 +342,9 @@ Extracts data from the Windows Sticky Notes database. Works on Windows 10 Build 
 Fileless lateral movement tool that relies on ChangeServiceConfigA to run command.
 
 @Credit to: https://github.com/Mr-Un1k0d3r/SCShell
+
+**SharpMapExec**
+
+A sharpen version of [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec). Use quotation marks if you want to pass multiple parameters to the binary.
+
+@Credit to: https://github.com/cube0x0/SharpMapExec
