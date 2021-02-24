@@ -342,3 +342,10 @@ Extracts data from the Windows Sticky Notes database. Works on Windows 10 Build 
 Fileless lateral movement tool that relies on ChangeServiceConfigA to run command.
 
 @Credit to: https://github.com/Mr-Un1k0d3r/SCShell
+
+**SharpSecDump**
+
+.Net port of the remote SAM + LSA Secrets dumping functionality of impacket's secretsdump.py.
+
+@Credit to: https://github.com/G0ldenGunSec/SharpSecDump
+
