@@ -349,3 +349,9 @@ Fileless lateral movement tool that relies on ChangeServiceConfigA to run comman
 
 @Credit to: https://github.com/G0ldenGunSec/SharpSecDump
 
+**SharpHandler**
+
+This project reuses open handles to lsass to parse or minidump lsass, therefore you don't need to use your own lsass handle to interact with it.
+
+@Credit to: https://github.com/jfmaes/SharpHandler
+
