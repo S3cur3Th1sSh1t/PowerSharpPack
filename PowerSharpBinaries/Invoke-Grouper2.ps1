@@ -13,5 +13,14 @@ function Invoke-Grouper2
     $decompressed.CopyTo( $output )
     [byte[]] $byteOutArray = $output.ToArray()
     $RAS = [System.Reflection.Assembly]::Load($byteOutArray)
+
+    $OldConsoleOut = [Console]::Out
+    $StringWriter = New-Object IO.StringWriter
+    [Console]::SetOut($StringWriter)
+
     [Grouper2.Grouper2]::Main($Command.Split(" "))
+
+    [Console]::SetOut($OldConsoleOut)
+    $Results = $StringWriter.ToString()
+    $Results
 }

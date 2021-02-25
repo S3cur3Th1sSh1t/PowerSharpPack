@@ -12,6 +12,15 @@ function Invoke-SharpAllowedToAct
     $output = New-Object System.IO.MemoryStream
     $decompressed.CopyTo( $output )
     [byte[]] $byteOutArray = $output.ToArray()
-    $RAS = [System.Reflection.Assembly]::Load($byteOutArray)   [AddMachineAccount.Program]::main($Command.Split(" "))
+    $RAS = [System.Reflection.Assembly]::Load($byteOutArray)   
+    
+    $OldConsoleOut = [Console]::Out
+    $StringWriter = New-Object IO.StringWriter
+    [Console]::SetOut($StringWriter)
+    
+    [AddMachineAccount.Program]::main($Command.Split(" "))
   
+    [Console]::SetOut($OldConsoleOut)
+    $Results = $StringWriter.ToString()
+    $Results
 }

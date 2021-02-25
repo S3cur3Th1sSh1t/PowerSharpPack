@@ -14,6 +14,14 @@ function Invoke-SpoolSample
     [byte[]] $byteOutArray = $output.ToArray()
     $RAS = [System.Reflection.Assembly]::Load($byteOutArray)
 
+    $OldConsoleOut = [Console]::Out
+    $StringWriter = New-Object IO.StringWriter
+    [Console]::SetOut($StringWriter)
+
     [SpoolS4mple.SpoolS4mple]::main($Command.Split(" "))
+
+    [Console]::SetOut($OldConsoleOut)
+    $Results = $StringWriter.ToString()
+    $Results
   
 }
