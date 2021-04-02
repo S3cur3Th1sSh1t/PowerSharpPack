@@ -355,3 +355,20 @@ This project reuses open handles to lsass to parse or minidump lsass, therefore 
 
 @Credit to: https://github.com/jfmaes/SharpHandler
 
+**SharpRDP**
+
+Remote Desktop Protocol .NET Console Application for Authenticated Command Execution.
+
+@Credit to: https://github.com/0xthirteen/SharpRDP
+
+**SharpMove**
+
+.NET Project for performing Authenticated Remote Execution.
+
+@Credit to: https://github.com/0xthirteen/SharpMove
+
+**SharpStay**
+
+.NET project for installing Persistence
+
+@Credit to: https://github.com/0xthirteen/SharpStay
