@@ -330,6 +330,8 @@ This Program creates a login prompt to gather username and password of the curre
 
 Retrieves data (contacts, emails, history, cookies and credentials) from Thunderbird and Firefox.
 
+@Credit to: https://github.com/V1V1/SharpScribbles
+
 **StickyNotesExtract**
 
 Extracts data from the Windows Sticky Notes database. Works on Windows 10 Build 1607 and higher. This project doesn't rely on any external dependencies.
