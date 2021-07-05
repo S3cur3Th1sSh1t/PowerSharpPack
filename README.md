@@ -374,3 +374,10 @@ Remote Desktop Protocol .NET Console Application for Authenticated Command Execu
 .NET project for installing Persistence
 
 @Credit to: https://github.com/0xthirteen/SharpStay
+
+
+**SharpPrintNightmare**
+
+C# implementation of PrintNightmare CVE-2021-1675/CVE-2021-34527 
+
+@Credit to: https://github.com/cube0x0/CVE-2021-1675/tree/main/SharpPrintNightmare/SharpPrintNightmare
