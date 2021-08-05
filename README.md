@@ -381,3 +381,9 @@ Remote Desktop Protocol .NET Console Application for Authenticated Command Execu
 C# implementation of PrintNightmare CVE-2021-1675/CVE-2021-34527 
 
 @Credit to: https://github.com/cube0x0/CVE-2021-1675/tree/main/SharpPrintNightmare/SharpPrintNightmare
+
+**Certify**
+
+Active Directory certificate abuse. 
+
+@Credit to: https://github.com/GhostPack/Certify
