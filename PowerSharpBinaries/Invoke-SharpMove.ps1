@@ -1,4 +1,4 @@
-﻿function Invoke-SharpMove
+function Invoke-SharpMove
 {
     [CmdletBinding()]
     Param (

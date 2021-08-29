@@ -1,4 +1,4 @@
-﻿function Invoke-SCShell
+function Invoke-SCShell
 {
 
     [CmdletBinding()]

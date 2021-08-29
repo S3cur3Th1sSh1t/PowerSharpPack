@@ -1,4 +1,4 @@
-﻿function Invoke-Thunderfox
+function Invoke-Thunderfox
 {
 
     [CmdletBinding()]

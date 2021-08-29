@@ -1,4 +1,4 @@
-﻿function Invoke-SharpRDP
+function Invoke-SharpRDP
 {
     [CmdletBinding()]
     Param (

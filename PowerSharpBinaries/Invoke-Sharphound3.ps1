@@ -1,4 +1,4 @@
-﻿function Invoke-Sharphound3
+function Invoke-Sharphound3
 {
 
     [CmdletBinding()]

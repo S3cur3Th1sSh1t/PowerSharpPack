@@ -1,4 +1,4 @@
-﻿function Invoke-SharpStay
+function Invoke-SharpStay
 {
     [CmdletBinding()]
     Param (

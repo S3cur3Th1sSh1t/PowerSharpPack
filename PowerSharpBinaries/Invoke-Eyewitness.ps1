@@ -1,4 +1,4 @@
-﻿function Invoke-Eyewitness
+function Invoke-Eyewitness
 {
 
     [CmdletBinding()]

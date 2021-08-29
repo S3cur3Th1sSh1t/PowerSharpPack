@@ -1,4 +1,4 @@
-﻿function Invoke-StickyNotesExtract
+function Invoke-StickyNotesExtract
 {
 
     [CmdletBinding()]
