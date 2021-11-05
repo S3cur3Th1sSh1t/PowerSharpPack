@@ -387,3 +387,9 @@ C# implementation of PrintNightmare CVE-2021-1675/CVE-2021-34527
 Active Directory certificate abuse. 
 
 @Credit to: https://github.com/GhostPack/Certify
+
+**Farmer**
+
+Farmer is a project for collecting NetNTLM hashes in a Windows domain. Farmer achieves this by creating a local WebDAV server that causes the WebDAV Mini Redirector to authenticate from any connecting clients.
+
+@Credit to: https://github.com/mdsecactivebreach/Farmer
