@@ -393,3 +393,8 @@ Active Directory certificate abuse.
 Farmer is a project for collecting NetNTLM hashes in a Windows domain. Farmer achieves this by creating a local WebDAV server that causes the WebDAV Mini Redirector to authenticate from any connecting clients.
 
 @Credit to: https://github.com/mdsecactivebreach/Farmer
+
+**SharpBypassUAC**
+
+C# tool for UAC bypasses 
+@Credit to: https://github.com/FatRodzianko/SharpBypassUAC
