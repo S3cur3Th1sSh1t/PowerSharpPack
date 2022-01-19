@@ -398,3 +398,8 @@ Farmer is a project for collecting NetNTLM hashes in a Windows domain. Farmer ac
 
 C# tool for UAC bypasses 
 @Credit to: https://github.com/FatRodzianko/SharpBypassUAC
+
+**StandIn**
+
+StandIn is a small .NET35/45 AD post-exploitation toolkit
+@Credit to: https://github.com/FuzzySecurity/StandIn
