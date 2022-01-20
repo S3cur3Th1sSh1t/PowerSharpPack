@@ -403,3 +403,8 @@ C# tool for UAC bypasses
 
 StandIn is a small .NET35/45 AD post-exploitation toolkit
 @Credit to: https://github.com/FuzzySecurity/StandIn
+
+**Carbuncle**
+
+Tool for interacting with outlook interop during red team engagements 
+@Credit to: https://github.com/checkymander/Carbuncle
