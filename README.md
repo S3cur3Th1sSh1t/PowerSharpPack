@@ -413,7 +413,7 @@ Tool for interacting with outlook interop during red team engagements
 @Credit to: https://github.com/checkymander/Carbuncle
 
 
-The last two are basically no Assemblies. But I did built an Assembly to execute them from memory, which is loadable via the technique from this repo. Another technique in the background for execution, but still usefull:
+#### _The last two are basically no Assemblies. But I did built an Assembly to execute them from memory, which is loadable via the technique from this repo. Another technique in the background for execution, but still usefull_:
 
 
 **HandleKatz**
