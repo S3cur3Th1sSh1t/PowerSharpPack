@@ -411,3 +411,20 @@ StandIn is a small .NET35/45 AD post-exploitation toolkit
 Tool for interacting with outlook interop during red team engagements 
 
 @Credit to: https://github.com/checkymander/Carbuncle
+
+
+The last two are basically no Assemblies. But I did built an Assembly to execute them from memory, which is loadable via the technique from this repo. Another technique in the background for execution, but still usefull:
+
+
+**HandleKatz**
+
+PIC lsass dumper using cloned handles
+
+@Credit to: https://github.com/codewhitesec/HandleKatz
+
+
+**NanoDump**
+
+Dump LSASS like you mean it
+
+@Credit to: https://github.com/helpsystems/nanodump
