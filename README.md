@@ -428,3 +428,10 @@ PIC lsass dumper using cloned handles
 Dump LSASS like you mean it
 
 @Credit to: https://github.com/helpsystems/nanodump
+
+
+**PPLDump**
+
+Dump the memory of a PPL with a userland exploit
+
+@Credit to: https://github.com/itm4n/PPLdump
