@@ -413,6 +413,12 @@ Tool for interacting with outlook interop during red team engagements
 @Credit to: https://github.com/checkymander/Carbuncle
 
 
+**Whisker**
+
+Whisker is a C# tool for taking over Active Directory user and computer accounts by manipulating their msDS-KeyCredentialLink attribute, effectively adding "Shadow Credentials" to the target account. 
+
+@Credit to: https://github.com/eladshamir/Whisker
+
 #### _The last two are basically no Assemblies. But I did built an Assembly to execute them from memory, which is loadable via the technique from this repo. Another technique in the background for execution, but still usefull_:
 
 
