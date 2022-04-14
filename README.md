@@ -419,6 +419,18 @@ Whisker is a C# tool for taking over Active Directory user and computer accounts
 
 @Credit to: https://github.com/eladshamir/Whisker
 
+**SharpLdapRelayScan**
+
+C# Port of LdapRelayScan
+
+@Credit to: https://github.com/klezVirus/SharpLdapRelayScan
+
+**LdapSignCheck**
+
+C# project to check LDAP signing.
+
+@Credit to: https://github.com/cube0x0/LdapSignCheck
+
 #### _The last two are basically no Assemblies. But I did built an Assembly to execute them from memory, which is loadable via the technique from this repo. Another technique in the background for execution, but still usefull_:
 
 
