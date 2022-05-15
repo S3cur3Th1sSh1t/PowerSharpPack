@@ -437,6 +437,12 @@ KrbRelayUp - a universal no-fix local privilege escalation in windows domain env
 
 @Credit to: https://github.com/Dec0ne/KrbRelayUp
 
+**SharpImpersonation**
+
+SharpImpersonation - A User Impersonation tool - via Token or Shellcode injection.
+
+@Credit to: https://github.com/S3cur3Th1sSh1t/SharpImpersonation
+
 #### _The last two are basically no Assemblies. But I did built an Assembly to execute them from memory, which is loadable via the technique from this repo. Another technique in the background for execution, but still usefull_:
 
 
