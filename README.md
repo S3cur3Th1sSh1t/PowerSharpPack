@@ -455,6 +455,12 @@ This tool allows you to abuse local or remote SCCM servers to deploy malicious a
 
 @Credit to: https://github.com/nettitude/MalSCCM
 
+**KrbRelay**
+
+Framework for Kerberos relaying
+
+@Credit to: https://github.com/cube0x0/KrbRelay
+
 #### _The last two are basically no Assemblies. But I did built an Assembly to execute them from memory, which is loadable via the technique from this repo. Another technique in the background for execution, but still usefull_:
 
 
