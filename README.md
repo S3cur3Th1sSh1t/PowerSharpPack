@@ -443,6 +443,18 @@ SharpImpersonation - A User Impersonation tool - via Token or Shellcode injectio
 
 @Credit to: https://github.com/S3cur3Th1sSh1t/SharpImpersonation
 
+**SharpWSUS**
+
+SharpWSUS is a CSharp tool for lateral movement through WSUS. There is a corresponding blog (https://labs.nettitude.com/blog/introducing-sharpwsus/) which has more detailed information about the tooling, use case and detection.
+
+@Credit to: https://github.com/nettitude/SharpWSUS
+
+**MalSCCM**
+
+This tool allows you to abuse local or remote SCCM servers to deploy malicious applications to hosts they manage. To use this tool your current process must have admin rights over the SCCM server. Typically deployments of SCCM will either have the management server and the primary server on the same host, in which case the host returned from the locate command can be used as the primary server.
+
+@Credit to: https://github.com/nettitude/MalSCCM
+
 #### _The last two are basically no Assemblies. But I did built an Assembly to execute them from memory, which is loadable via the technique from this repo. Another technique in the background for execution, but still usefull_:
 
 
