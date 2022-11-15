@@ -1,3 +1,7 @@
+# Sponsored by
+
+<img src="https://github.com/S3cur3Th1sSh1t/PowerSharpPack/raw/master/images/happy_alp.png" width="300" height="300">
+
 # PowerSharpPack
 
 Many useful offensive CSharp Projects wraped into Powershell for easy usage.
