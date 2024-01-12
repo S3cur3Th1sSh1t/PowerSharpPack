@@ -19,7 +19,7 @@ function Invoke-Seatbelt
     $StringWriter = New-Object IO.StringWriter
     [Console]::SetOut($StringWriter)
 
-    [AnschnallGurt.Program]::main($Command.Split(" "))
+    [AnschnallGurt.Program]::Main($Command)
 
      # Restore the regular STDOUT object
     [Console]::SetOut($OldConsoleOut)
