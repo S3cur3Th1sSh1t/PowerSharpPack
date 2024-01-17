@@ -237,6 +237,12 @@ Projects which are also available as standalone powershell script:
  
  @Credit to: https://github.com/BloodHoundAD/SharpHound3
 
+**PostDump**
+
+Another tool to perform minidump of LSASS process using few technics to avoid detection.
+
+@Credit to: https://github.com/YOLOP0wn/POSTDump
+
  **SharpLocker**
 
  SharpLocker helps get current user credentials by popping a fake Windows lock screen, all output is sent to Console which works perfect for Cobalt Strike.
